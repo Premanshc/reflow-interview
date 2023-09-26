@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>ReFlow</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="sidebar">
+            <h1 class="logo">Reflow</h1>
+            <ul>
+                <li>
+                    <a href="#" class="active">
+                        <img width="24" height="24" src="https://img.icons8.com/material-outlined/24/dashboard.png" alt="dashboard"/>
+                        &nbsp;
+                        <span class="item">Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/artist.png" alt="artist"/>
+                        &nbsp;
+                        <span class="item">Artists</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/group-of-projects.png" alt="group-of-projects"/>
+                        &nbsp;
+                        <span class="item">Projects</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/sales-performance.png" alt="sales-performance"/>
+                        &nbsp;
+                        <span class="item">Sales</span>
+                    </a>
+                </li>
+                
+                <li class="setting">
+                    <a href="#">
+                        <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/settings.png" alt="settings"/>
+                        &nbsp;
+                        <span class="item">Settings</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/exit.png" alt="exit"/>
+                        &nbsp;
+                        <span class="item">Logout</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="search">
+                <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/search--v1.png" alt="search--v1"/>
+            <input type="text" placeholder="Search artists, projects">
+            </div>
+            <p class="heading">In Last 30 days,</p>
+            <div class="updates">
+                <div class="update">
+                    <h1>3000</h1>
+                    <p>Art Sales</p>
+                </div>
+                <div class="update">
+                    <h1>250</h1>
+                    <p>New Artists</p>
+                </div>
+                <div class="update">
+                    <h1>$400,000</h1>
+                    <p>Revenue generated</p>
+                </div>
+            </div>
+            <div>
+                <div class="heading2">
+                    <h2>
+                        All Artists
+                    </h2>
+                    <p>Monitor artist sales, reviews, etc.</p>
+                </div>
+                <div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Artist</th>
+                                <th>Status</th>
+                                <th>Projects Sold</th>
+                                <th>Highest sale</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><img src="./public/profilepic.jpeg" alt="Image 1"> Bluenose</td>
+                                <td>Data 1-1</td>
+                                <td>Data 1-2</td>
+                                <td>Data 1-3</td>
+                            </tr>
+                            <tr>
+                                <td><img src="./public/profilepic.jpeg" alt="Image 2">Prem</td>
+                                <td>Data 2-1</td>
+                                <td>400</td>
+                                <td>Data 2-3</td>
+                            </tr>
+                            <tr>
+                                <td><img src="./public/profilepic.jpeg" alt="Image 2">Ratan</td>
+                                <td>Data 2-1</td>
+                                <td>200</td>
+                                <td>Data 2-3</td>
+                            </tr>
+                            <tr>
+                                <td><img src="./public/profilepic.jpeg" alt="Image 2">Bhalu</td>
+                                <td>Data 2-1</td>
+                                <td>40,000</td>
+                                <td>Data 2-3</td>
+                            </tr>
+                            <tr>
+                                <td><img src="./public/profilepic.jpeg" alt="Image 2">Priya</td>
+                                <td>Data 2-1</td>
+                                <td>30</td>
+                                <td>Data 2-3</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="pagenumber">
+                        <h2>Previous page</h2>
+                        <button class="circular-button">1</button>
+                        <button class="circular-button">2</button>
+                        <button class="circular-button">3</button>
+                        <button class="circular-button">4</button>
+                        <button class="circular-button">5</button>
+                        <button class="circular-button">6</button>
+                        <button class="circular-button">7</button>
+                        <button class="circular-button">8</button>
+                        <h2>Next page</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="rightcontent">
+            <div class="profile">
+                <img src="./public/profilepic.jpeg">
+                <h1>Rudra<img id="bell" width="50" height="50" src="https://img.icons8.com/ios-filled/50/appointment-reminders--v1.png" alt="appointment-reminders--v1"/></h1>
+                <p>Admin</p>
+                
+            </div>
+            <div class="bestselling">
+                <h1>Best-selling Artists</h1>
+                <table>
+                    <tr>
+                        <td><img src="./public/profilepic.jpeg" alt="Image 1"></td>
+                        <td class="bold">Koala</td>
+                        <td>Data 1-2</td>
+                        <td>Data 1-3</td>
+                    </tr>
+                    <tr>
+                        <td><img src="./public/profilepic.jpeg" alt="Image 2"></td>
+                        <td class="bold">Gajni</td>
+                        <td>Data 2-2</td>
+                        <td>Data 2-3</td>
+                    </tr>
+                    <tr>
+                        <td><img src="./public/profilepic.jpeg" alt="Image 2"></td>
+                        <td class="bold">Rishy</td>
+                        <td>Data 2-2</td>
+                        <td>Data 2-3</td>
+                    </tr>
+                </table>
+                <button class="button">View all Artists</button>
+            </div>
+            <div class="bestselling">
+                <h1>Best-selling Projects</h1>
+                <table>
+                    <tr>
+                        <td><img src="./public/profilepic.jpeg" alt="Image 1"></td>
+                        <td class="bold">Ken </td>
+                        <td>Data </td>
+                        <td>Data </td>
+                    </tr>
+                    <tr>
+                        <td><img src="./public/profilepic.jpeg" alt="Image 2"></td>
+                        <td class="bold">Penny </td>
+                        <td>Data </td>
+                        <td>Data </td>
+                    </tr>
+                    <tr>
+                        <td><img src="./public/profilepic.jpeg" alt="Image 2"></td>
+                        <td class="bold">Prem </td>
+                        <td>Data </td>
+                        <td>Data </td>
+                    </tr>
+                </table>
+                <button class="button">View all Projects</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
